@@ -1,0 +1,127 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    padding-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table-container {
+    max-height: 400px; /* Set a fixed height */
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.0em;
+    font-family: 'Arial', sans-serif;
+    min-width: 400px;
+}
+
+.styled-table thead tr {
+   
+    position: sticky;
+    top: 0; /* Make the header sticky */
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+}
+
+.styled-table th {
+    background-color: #00a086;
+    color: white;
+    text-transform: uppercase;
+}
+
+.styled-table td {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 9px 15px; /* Increase the padding for larger rows */
+}
+.action-btn {
+    padding: 10px 15px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.update-btn {
+    background-color: #4CAF50; /* Green */
+   /* text-decoration: none;
+    font-color: whitesmoke;*/
+
+}
+
+.update-btn a{
+    color: white;
+
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.delete-btn a{
+    color: white;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
