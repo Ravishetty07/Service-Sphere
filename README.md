@@ -175,9 +175,10 @@ http://localhost/service-sphere/
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Preview
 
-> 📌 Replace these with actual screenshots in `assets/images` and link them below.
+![Service Sphere Preview](images/image.png)
+
 
 * 🏠 Home Page
 * 🗺️ District/Taluk Selection
